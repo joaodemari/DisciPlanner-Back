@@ -20,8 +20,6 @@ builder.Services.AddDbContext<DisciPlannerDbContext>(options =>
     options.UseSqlite("FileName=./Data/DisciPlanner.db");
 });
 
-//is it working?
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
